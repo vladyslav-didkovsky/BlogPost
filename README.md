@@ -14,8 +14,9 @@ There should be no necessary libraries to run the code here beyond the Anaconda 
 
 <a name="pro"></a>
 # Project Motivation
+Project Motivation
 
-In this project, I was using data from Kaggle to answer these questions:
+Based on Cross-Industry Standard Process of Data Mining (CRISP-DM), the COVID19 datasets were collected and investigated. Five bisinuess questions were asked and answered:
 
   1. What is the global trend of the COVID-19 cases? Which countries suffer the most at the moment? 
   2. What is the impact of quarantine policy to the spreading of COVID-19 for each country?
