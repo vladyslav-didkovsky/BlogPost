@@ -31,7 +31,7 @@ The full set of data is available here, while the updated data is available in K
 <a name="res"></a>
 # Result
 
-The main findings of the code can be seen [here]().
+The main findings of the code can be seen [here](https://medium.com/@vladyslav.didkovsky/the-covid-19-riddle-why-does-the-virus-wallop-some-places-and-spare-others-896ca551a36a?sk=12959bc7e16d5abf09e6f7707efed29c).
 
 <a name="lic"></a>
 # Licensing, Authors, Acknowledgements
