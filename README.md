@@ -16,23 +16,26 @@ There should be no necessary libraries to run the code here beyond the Anaconda 
 # Project Motivation
 Project Motivation
 
-Based on Cross-Industry Standard Process of Data Mining (CRISP-DM), the COVID19 datasets were collected and investigated. Five bisinuess questions were asked and answered:
+CRISP-DM Process
+Business Understanding: From Business perspective there are many questions on how this infectious disease spreads around the world. This code helps in analysis current Corona situation in the world like reasons for Spread, Death Rates and Predicts Future Hotspots:
+    What is the global trend of the COVID-19 cases? Which countries suffer the most at the moment?
 
-  1. What is the global trend of the COVID-19 cases? Which countries suffer the most at the moment? 
-  2. What is the impact of quarantine policy to the spreading of COVID-19 for each country?
-  3. What is the relationship between number of test to confirmed cases?
-  4. Which aspect of the country correlate most with COVID-19 cases and deaths?
-  5. What is the relationship between healthcare system of the country and COVID-19 cases and deaths?  
-  
+    What is the impact of quarantine policy to the spreading of COVID-19 for each country?
+
+    What is the relationship between number of test to confirmed cases?
+
+    Which aspect of the country correlate most with COVID-19 cases and deaths?
+
+    What is the relationship between healthcare system of the country and COVID-19 cases and deaths?
+Data Understanding：COVID19 dataset consists of 3 datasets(test,general and info). Datasets were investigated before any preprocessing.
+Prepare Data: Including data cleaning, filling NAN value, one-hot encoding and MinMax preprocessing. Please refer to Preprocessing for detail.
+Data Modeling: Used Data Visualization and Data Analyse methods to indentify the causes of COVID19 spreadings, I tried to built different types of formulas to analyze the best answer. Some other models are trained and compared as well beforehand. Please refer to */ipynb for detail.
+Evaluate the Results: Result and discussion are published in [here](https://medium.com/@vladyslav.didkovsky/the-covid-19-riddle-why-does-the-virus-wallop-some-places-and-spare-others-896ca551a36a?sk=12959bc7e16d5abf09e6f7707efed29c).
+
 <a name="fil"></a>
 # File Descriptions
 
 The full set of data is available here, while the updated data is available in Kaggle. There is a notebook available to answer the above questions.
-
-<a name="res"></a>
-# Result
-
-The main findings of the code can be seen [here](https://medium.com/@vladyslav.didkovsky/the-covid-19-riddle-why-does-the-virus-wallop-some-places-and-spare-others-896ca551a36a?sk=12959bc7e16d5abf09e6f7707efed29c).
 
 <a name="lic"></a>
 # Licensing, Authors, Acknowledgements
