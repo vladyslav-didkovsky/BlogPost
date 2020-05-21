@@ -18,6 +18,7 @@ Project Motivation
 
 CRISP-DM Process
 Business Understanding: From Business perspective there are many questions on how this infectious disease spreads around the world. This code helps in analysis current Corona situation in the world like reasons for Spread, Death Rates and Predicts Future Hotspots:
+
     *What is the global trend of the COVID-19 cases? Which countries suffer the most at the moment?
 
     *What is the impact of quarantine policy to the spreading of COVID-19 for each country?
@@ -27,6 +28,7 @@ Business Understanding: From Business perspective there are many questions on ho
     *Which aspect of the country correlate most with COVID-19 cases and deaths?
 
     *What is the relationship between healthcare system of the country and COVID-19 cases and deaths?
+    
 Data Understanding：COVID19 dataset consists of 3 datasets(test,general and info). Datasets were investigated before any preprocessing.
 Prepare Data: Including data cleaning, filling NAN value, one-hot encoding and MinMax preprocessing. Please refer to Preprocessing for detail.
 Data Modeling: Used Data Visualization and Data Analyse methods to indentify the causes of COVID19 spreadings, I tried to built different types of formulas to analyze the best answer. Some other models are trained and compared as well beforehand. Please refer to */ipynb for detail.
